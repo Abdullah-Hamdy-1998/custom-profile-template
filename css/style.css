@@ -7,6 +7,8 @@
   --main-color-alt: #1787e0;
 }
 
-/* Variables*/
+html {
+  scroll-behavior: smooth;
+}
 
 /* Start Global Rules */
