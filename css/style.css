@@ -63,7 +63,6 @@ ul {
 .header ul {
   display: flex;
   align-items: center;
-  padding: 15px 0;
 }
 
 .header .logo {
@@ -71,6 +70,17 @@ ul {
   font-weight: 700;
   color: var(--main-color);
   text-decoration: none;
+}
+
+.header ul li {
+  padding: 30px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /* End Header */
