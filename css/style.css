@@ -53,6 +53,7 @@ ul {
 /* End Global Rules */
 
 /* Start Header */
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -63,6 +64,13 @@ ul {
   display: flex;
   align-items: center;
   padding: 15px 0;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--main-color);
+  text-decoration: none;
 }
 
 /* End Header */
