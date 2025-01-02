@@ -51,3 +51,18 @@ ul {
 }
 
 /* End Global Rules */
+
+/* Start Header */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+/* End Header */
