@@ -71,6 +71,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
 .header ul {
@@ -83,10 +84,11 @@ ul {
   font-weight: 700;
   color: var(--main-color);
   text-decoration: none;
+
 }
 
 .header ul li {
-  padding: 30px;
+  padding: 0 30px;
 }
 
 .header ul li a {
