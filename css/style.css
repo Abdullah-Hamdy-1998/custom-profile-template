@@ -1,6 +1,6 @@
 /* Start Global Rules */
 
-*{
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -71,20 +71,24 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  flex-wrap: wrap;
 }
 
 .header ul {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 .header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--main-color);
   text-decoration: none;
-
+  height: 80px;
 }
 
 .header ul li a {
