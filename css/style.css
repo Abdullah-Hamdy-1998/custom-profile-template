@@ -147,6 +147,22 @@ ul {
 /* End Header */
 
 /* Start Landing */
+.landing {
+  position: relative;
+}
+
+.landing::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -40px;
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  z-index: -1;
+}
+
 .landing .container {
   display: flex;
   justify-content: space-between;
@@ -158,7 +174,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 .landing .landing-content h2 {
@@ -176,7 +192,7 @@ ul {
 }
 
 .landing .landing-image {
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 .landing .landing-image img {
