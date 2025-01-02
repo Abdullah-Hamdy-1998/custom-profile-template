@@ -87,15 +87,20 @@ ul {
 
 }
 
-.header ul li {
-  padding: 0 30px;
-}
-
 .header ul li a {
+  display: flex;
+  align-items: center;
+  height: 80px;
   text-decoration: none;
   color: #333;
   font-size: 18px;
   font-weight: 600;
+  padding: 0 30px;
+}
+
+.header ul li a:hover {
+  color: var(--main-color);
+  background-color: #fafafa;
 }
 
 /* End Header */
