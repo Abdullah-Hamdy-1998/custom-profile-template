@@ -60,6 +60,13 @@ ul {
 
 /* Start Header */
 
+.header {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px #ddd;
+  -moz-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 10px #ddd;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
