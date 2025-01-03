@@ -283,7 +283,7 @@ ul {
   width: calc(100% - 30px);
   transform: translateX(15px);
   background-color: #fff;
-  /* display: none; */
+  opacity: 0;
   z-index: 999;
   transition: top 0.3s, opacity 0.3s;
   border-bottom: 5px solid var(--main-color);
@@ -296,6 +296,11 @@ ul {
     padding: 20px;
     top: calc(100% + 20px);
   }
+}
+
+.header ul>#other-links:hover .mega-menu {
+  top: 100%;
+  opacity: 1;
 }
 
 .header .mega-menu .image img {
