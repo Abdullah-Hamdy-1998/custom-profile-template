@@ -284,7 +284,7 @@ ul {
   transform: translateX(15px);
   background-color: #fff;
   opacity: 0;
-  z-index: 999;
+  z-index: -1;
   transition: top 0.3s, opacity 0.3s;
   border-bottom: 5px solid var(--main-color);
 }
@@ -299,8 +299,9 @@ ul {
 }
 
 .header ul>#other-links:hover .mega-menu {
-  top: 100%;
+  top: calc(100% + 1px);
   opacity: 1;
+  z-index: 100;
 }
 
 .header .mega-menu .image img {
