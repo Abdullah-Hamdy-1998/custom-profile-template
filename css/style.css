@@ -214,6 +214,7 @@ ul {
 
 .landing .landing-image {
   flex-basis: 45%;
+  animation: up-and-down 3s infinite;
 }
 
 @media (max-width: 991px) {
@@ -233,6 +234,21 @@ ul {
   left: 50%;
   transform: translateX(-50%);
   transition: 0.3s;
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+  
 }
 
 /* End Landing */
