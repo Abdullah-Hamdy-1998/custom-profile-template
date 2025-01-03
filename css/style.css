@@ -177,11 +177,25 @@ ul {
   flex-basis: 45%;
 }
 
+@media (max-width: 991px) {
+  .landing .landing-content {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
 .landing .landing-content h2 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
   margin-bottom: 20px;
+}
+
+
+@media (max-width: 991px) {
+  .landing .landing-content h2 {
+    font-size: 2rem;
+  }
 }
 
 .landing .landing-content p {
@@ -191,8 +205,21 @@ ul {
   margin: 0;
 }
 
+
+@media (max-width: 991px) {
+  .landing .landing-content p {
+    font-size: 1.2rem;
+  }
+}
+
 .landing .landing-image {
   flex-basis: 45%;
+}
+
+@media (max-width: 991px) {
+  .landing .landing-image {
+    display: none;
+  }
 }
 
 .landing .landing-image img {
