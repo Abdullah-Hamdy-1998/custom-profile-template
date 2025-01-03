@@ -303,4 +303,8 @@ ul {
   transition: 0.3s;
 }
 
+.header .mega-menu .links li a i {
+  margin-right: 10px;
+}
+
 /* End Mega Menu */
