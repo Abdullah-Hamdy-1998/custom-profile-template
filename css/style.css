@@ -80,6 +80,13 @@ ul {
   align-items: center;
 }
 
+@media (max-width: 767px) {
+  .header .container>ul {
+    position: relative;
+  }
+  
+}
+
 .header .logo {
   display: flex;
   justify-content: center;
@@ -289,11 +296,18 @@ ul {
   border-bottom: 5px solid var(--main-color);
 }
 
+@media (max-width: 991px) {
+  .header .mega-menu {
+    width: 100%;
+    padding: 10px;
+    transform: translateX(0);
+  }
+}
+
 @media (max-width: 767px) {
   .header .mega-menu {
     flex-direction: column;
     gap: 0;
-    padding: 20px;
     top: calc(100% + 20px);
   }
 }
@@ -309,7 +323,7 @@ ul {
 }
 
 @media (max-width: 991px) {
-  .header .mega-menu .image img {
+  .header .mega-menu .image {
     display: none;
   }
 }
