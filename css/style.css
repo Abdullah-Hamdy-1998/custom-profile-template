@@ -295,12 +295,17 @@ ul {
 
 .header .mega-menu .links a {
   display: block;
+  min-width: 215px;
   color: var(--main-color);
   font-size: 1.1rem;
   font-weight: 600;
   padding: 15px;
   text-decoration: none;
   transition: 0.3s;
+}
+
+.header .mega-menu .links li:not(:last-child) {
+  border-bottom: 1px solid #e9e6e6;
 }
 
 .header .mega-menu .links li a i {
