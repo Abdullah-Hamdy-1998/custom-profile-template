@@ -304,12 +304,32 @@ ul {
   transition: 0.3s;
 }
 
+.header .mega-menu .links li {
+  position: relative;
+}
+
 .header .mega-menu .links li:not(:last-child) {
   border-bottom: 1px solid #e9e6e6;
 }
 
 .header .mega-menu .links li a i {
   margin-right: 10px;
+}
+
+.header .mega-menu .links li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #fafafa;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.header .mega-menu .links li:hover::before {
+  width: 100%;
 }
 
 /* End Mega Menu */
