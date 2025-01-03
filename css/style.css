@@ -72,6 +72,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .header ul {
@@ -270,3 +271,18 @@ ul {
 }
 
 /* End Landing */
+
+/* Start Mega Menu */
+.header .mega-menu {
+  position: absolute;
+  top: calc(100% + 40px);
+  left: 0;
+  width: calc(100% - 30px);
+  transform: translateX(15px);
+  background-color: #fff;
+  /* display: none; */
+  z-index: 999;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+/* End Mega Menu */
