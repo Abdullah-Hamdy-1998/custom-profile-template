@@ -75,7 +75,7 @@ ul {
   position: relative;
 }
 
-.header ul {
+.header .container>ul {
   display: flex;
   align-items: center;
 }
@@ -274,15 +274,33 @@ ul {
 
 /* Start Mega Menu */
 .header .mega-menu {
+  display: flex;
+
   position: absolute;
   top: calc(100% + 40px);
   left: 0;
+  padding: 30px;
   width: calc(100% - 30px);
   transform: translateX(15px);
   background-color: #fff;
   /* display: none; */
   z-index: 999;
   transition: top 0.3s, opacity 0.3s;
+  border-bottom: 5px solid var(--main-color);
+}
+
+.header .mega-menu .image img{
+  max-width: 100%;
+}
+
+.header .mega-menu .links a {
+  display: block;
+  color: var(--main-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 15px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 /* End Mega Menu */
