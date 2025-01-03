@@ -97,7 +97,7 @@ ul {
   }
 }
 
-.header ul li a {
+.header .container>ul>li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,14 +117,14 @@ ul {
     justify-content: center;
   }
 
-  .header ul li a {
+  .header .container>ul>li a {
     font-size: 0.9rem;
     padding: 0 15px;
     height: 50px;
   }
 }
 
-.header ul li a::before {
+.header .container>ul>li a::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -134,12 +134,12 @@ ul {
   background-color: var(--main-color);
 }
 
-.header ul li a:hover {
+.header .container>ul>li a:hover {
   color: var(--main-color);
   background-color: #fafafa;
 }
 
-.header ul li a:hover::before {
+.header .container>ul>li a:hover::before {
   left: 0;
   transition: 0.3s;
 }
