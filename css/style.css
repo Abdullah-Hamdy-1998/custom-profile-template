@@ -11,6 +11,7 @@
 :root {
   --main-color: #2196f3;
   --main-color-alt: #1787e0;
+  --main-padding: 100px;
 }
 
 html {
@@ -95,7 +96,7 @@ ul {
   right: -30px;
 }
 
-.main-title:hover::before{
+.main-title:hover::before {
   animation: background-fill-left linear 0.5s forwards;
 }
 
@@ -165,7 +166,7 @@ ul {
   .header .container>ul {
     position: relative;
   }
-  
+
 }
 
 .header .logo {
@@ -461,3 +462,54 @@ ul {
 }
 
 /* End Mega Menu */
+
+/* Start Articles */
+.articles {
+  padding: var(--main-padding) 0;
+}
+
+.articles .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.articles .box {
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+}
+
+.articles .box-image img {
+  max-width: 100%;
+}
+
+.articles .title {
+  padding: 0 20px;
+}
+
+.articles .body {
+  padding: 0 20px;
+  color: #666;
+}
+
+.articles .body p {
+  line-height: 1.5;
+}
+
+.articles .read-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-color);
+  padding: 20px;
+  border-top: 1px solid #e6e6e7;
+}
+
+.articles .read-more a {
+  font-weight: bold;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+/* End Articles */
