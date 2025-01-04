@@ -61,7 +61,7 @@ ul {
   font-size: 2rem;
   color: #333;
   padding: 10px 20px;
-  margin: 100px auto;
+  margin: 0 auto 80px auto;
   width: fit-content;
   text-transform: uppercase;
   border: 2px solid #333;
@@ -476,8 +476,18 @@ ul {
 
 .articles .box {
   border-radius: 5px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: 0px 2px 15px -3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  transition: 0.3s;
+}
+
+.articles .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.articles .box:hover .read-more i {
+  animation: right-move 0.5s linear infinite alternate;
 }
 
 .articles .box-image img {
@@ -510,6 +520,16 @@ ul {
   font-weight: bold;
   color: var(--main-color);
   text-decoration: none;
+}
+
+.articles .read-more i {
+  transition: 0.3s;
+}
+
+@keyframes right-move {
+  100% {
+    transform: translateX(10px);
+  }
 }
 
 /* End Articles */
