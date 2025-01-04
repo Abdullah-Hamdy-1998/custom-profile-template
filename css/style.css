@@ -65,6 +65,14 @@ ul {
   text-transform: uppercase;
   border: 2px solid #333;
   position: relative;
+  z-index: 1;
+}
+
+.main-title:hover {
+  color: #fff;
+  border: 2px solid transparent;
+  transition: 0.3s;
+  transition-delay: 0.5s;
 }
 
 .main-title::before, .main-title::after {
@@ -76,6 +84,7 @@ ul {
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
+  z-index: -1;
 }
 
 .main-title::before {
@@ -84,6 +93,48 @@ ul {
 
 .main-title::after {
   right: -30px;
+}
+
+.main-title:hover::before{
+  animation: background-fill-left linear 0.5s forwards;
+}
+
+.main-title:hover::after {
+  animation: background-fill-right linear 0.5s forwards;
+}
+
+@keyframes background-fill-left {
+
+  50% {
+    left: 0;
+    width: 12px;
+    height: 12px;
+  }
+
+  100% {
+    border-radius: 0;
+    left: 0;
+    width: 51%;
+    height: 100%;
+  }
+
+}
+
+@keyframes background-fill-right {
+
+  50% {
+    right: 0;
+    width: 12px;
+    height: 12px;
+  }
+
+  100% {
+    border-radius: 0;
+    right: 0;
+    width: 51%;
+    height: 100%;
+  }
+
 }
 
 /* End Global Rules */
