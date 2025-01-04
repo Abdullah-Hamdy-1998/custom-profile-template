@@ -600,3 +600,64 @@ ul {
 }
 
 /* End Gallery */
+
+/* Start Features */
+.features {
+  padding: var(--main-padding) 0;
+}
+
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.features .image img {
+  max-width: 100%;
+}
+
+.features .box {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+
+.features .box h3 {
+  font-size: 2.5rem;
+  margin: 10px auto 40px;
+  padding: 20px 20px 0;
+  width: fit-content;
+  position: relative;
+}
+
+.features .box h3::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  width: calc(100% - 80px);
+  height: 5px;
+  background-color: red;
+}
+
+.features .box p {
+  font-size: 1.3rem;
+  line-height: 2;
+  margin: 30px 0;
+  color: #777;
+}
+
+.features .box a {
+  color: red;
+  font-weight: bold;
+  display: block;
+  width: fit-content;
+  padding: 10px 30px;
+  margin: 0 auto 20px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+/* End Features */
