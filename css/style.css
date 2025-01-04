@@ -56,6 +56,36 @@ ul {
   }
 }
 
+.main-title {
+  font-size: 2rem;
+  color: #333;
+  padding: 10px 20px;
+  margin: 100px auto;
+  width: fit-content;
+  text-transform: uppercase;
+  border: 2px solid #333;
+  position: relative;
+}
+
+.main-title::before, .main-title::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-title::before {
+  left: -30px;
+}
+
+.main-title::after {
+  right: -30px;
+}
+
 /* End Global Rules */
 
 /* Start Header */
