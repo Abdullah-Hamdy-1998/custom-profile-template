@@ -534,3 +534,21 @@ ul {
 }
 
 /* End Articles */
+
+/* Start Gallery */
+.gallery {
+  padding: var(--main-padding) 0;
+  background-color: var(--section-background);
+}
+
+.gallery .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.gallery .image img {
+  max-width: 100%;
+}
+
+/* End Gallery */
