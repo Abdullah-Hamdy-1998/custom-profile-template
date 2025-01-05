@@ -209,7 +209,7 @@ ul {
 }
 
 .landing::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: -40px;
@@ -384,7 +384,7 @@ ul {
 }
 
 .header .mega-menu .links li::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -491,7 +491,7 @@ ul {
 }
 
 .gallery .image::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -546,7 +546,7 @@ ul {
 }
 
 .features .image::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -565,7 +565,7 @@ ul {
 }
 
 .features .image::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -589,7 +589,7 @@ ul {
 }
 
 .features .box h3::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -20px;
   left: 40px;
@@ -726,8 +726,55 @@ ul {
   gap: 40px;
 }
 
+.team .box {
+  position: relative;
+  padding: 60px 0 0;
+}
+
+.team .box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f3f3f3;
+  width: calc(100% - 60px);
+  height: 100%;
+  border-radius: 10px;
+  z-index: -2;
+}
+
+.team .image-holder {
+  display: flex;
+  align-items: center;
+}
+
+.team .image {
+  width: calc(100% - 60px);
+}
+
 .team .image img {
   max-width: 100%;
+  border-radius: 10px;
+}
+
+.team .social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 60px;
+}
+
+.team .box h3 {
+  color: var(--main-color);
+  font-size: 1.4rem;
+  margin: 20px 0 0;
+  padding-left: 80px;
+}
+
+.team .box p {
+  margin: 10px 0 20px;
+  padding-left: 80px;
 }
 
 /* End Team */
