@@ -545,6 +545,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;
+  justify-items: center;
 }
 
 .gallery .box {
@@ -699,6 +700,21 @@ ul {
   text-decoration: none;
   border: 3px solid red;
   border-radius: 5px;
+  transition: 0.3s;
 }
+
+.features .box:hover a{
+  background-position: left;
+  color: #fff;
+}
+
+.features .quality a {
+  color: #f44036;
+  border-color: #f44036;
+  background: linear-gradient(to right, #f44036 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
 
 /* End Features */
