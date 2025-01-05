@@ -674,6 +674,20 @@ ul {
   gap: 40px;
 }
 
+.testimonials .box {
+  position: relative;
+  background-color: #fff;
+}
+
+.testimonials .box img {
+  position: absolute;
+  width: 100px;
+  top: -40px;
+  right: 0;
+  border-radius: 50%;
+  border: 10px solid var(--section-background);
+}
+
 .testimonials .image img {
   max-width: 100%;
 }
