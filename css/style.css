@@ -732,16 +732,30 @@ ul {
   padding: 60px 0 0;
 }
 
-.team .box::before {
+.team .box::before, .team .box::after {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #f3f3f3;
-  width: calc(100% - 60px);
   height: 100%;
   border-radius: 10px;
+}
+
+.team .box::before {
+  background-color: #f3f3f3;
+  width: calc(100% - 60px);
   z-index: -2;
+}
+
+.team .box::after {
+  background-color: #e4e4e4;
+  width: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.team .box:hover::after {
+  width: calc(100% - 60px);
 }
 
 .team .image-holder {
@@ -756,6 +770,11 @@ ul {
 .team .image img {
   max-width: 100%;
   border-radius: 10px;
+  transition: 0.3s;
+}
+
+.team .box:hover img {
+  filter: grayscale(300);
 }
 
 .team .social {
