@@ -663,6 +663,20 @@ ul {
 /* End Features */
 
 /* Start Testimonials */
+.testimonials {
+  padding: var(--main-padding) 0;
+  background-color: var(--section-background);
+}
+
+.testimonials .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.testimonials .image img {
+  max-width: 100%;
+}
 
 /* End Testimonials */
 
