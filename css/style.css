@@ -715,6 +715,23 @@ ul {
 
 /* End Testimonials */
 
+/* Start Team */
+.team {
+  padding: var(--main-padding) 0;
+}
+
+.team .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.team .image img {
+  max-width: 100%;
+}
+
+/* End Team */
+
 /* Start Animations */
 
 @keyframes background-fill-left {
