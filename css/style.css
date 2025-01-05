@@ -677,13 +677,34 @@ ul {
 .testimonials .box {
   position: relative;
   background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+  padding: 20px;
+}
+
+.testimonials .box h3 {
+  margin: 0;
+}
+
+.testimonials .box p {
+  margin: 10px 0 0;
+  line-height: 1.5;
+  color: #777;
+}
+
+.testimonials .box .filled {
+  color: #ffc107;
+}
+
+.testimonials .box .rate {
+  margin: 10px 0 0;
 }
 
 .testimonials .box img {
   position: absolute;
   width: 100px;
-  top: -40px;
-  right: 0;
+  top: -50px;
+  right: -10px;
   border-radius: 50%;
   border: 10px solid var(--section-background);
 }
