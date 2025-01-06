@@ -232,6 +232,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   flex-basis: 45%;
+  position: relative;
+  top: -10%;
 }
 
 @media (max-width: 991px) {
@@ -272,6 +274,8 @@ ul {
 .landing .landing-image {
   flex: 1;
   animation: up-and-down 3s infinite;
+  position: relative;
+  top: -10%;
 }
 
 @media (max-width: 991px) {
