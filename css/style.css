@@ -223,7 +223,6 @@ ul {
 
 .landing .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: calc(100vh - 80px);
 }
@@ -271,7 +270,7 @@ ul {
 }
 
 .landing .landing-image {
-  flex-basis: 45%;
+  flex: 1;
   animation: up-and-down 3s infinite;
 }
 
