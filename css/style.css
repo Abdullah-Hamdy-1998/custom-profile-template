@@ -934,12 +934,24 @@ ul {
   flex-basis: 45%;
 }
 
+@media (max-width: 991px) {
+  .our-skills .image {
+    display: none;
+  }
+}
+
 .our-skills img {
   max-width: 100%;
 }
 
 .our-skills .skills {
   flex-basis: 45%;
+}
+
+@media (max-width: 991px) {
+  .our-skills .skills  {
+    flex-basis: 100%;
+  }
 }
 
 .our-skills .progress {
@@ -956,12 +968,12 @@ ul {
   background-color: var(--main-color);
 }
 
-.our-skills .box h3{
+.our-skills .box h3 {
   display: flex;
   justify-content: space-between;
 }
 
-.our-skills .box h3 span{
+.our-skills .box h3 span {
   font-size: 0.8rem;
   border: 1px solid #ccc;
   padding: 3px 5px;
