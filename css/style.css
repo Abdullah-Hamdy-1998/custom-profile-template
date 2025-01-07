@@ -919,6 +919,45 @@ ul {
 
 /* End Services */
 
+/* Start Our Skills */
+.our-skills {
+  padding: var(--main-padding) 0;
+}
+
+.our-skills .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-skills .image {
+  flex-basis: 45%;
+}
+
+.our-skills img {
+  max-width: 100%;
+}
+
+.our-skills .skills {
+  flex-basis: 45%;
+}
+
+.our-skills .progress {
+  background-color: #eee;
+  height: 30px;
+  position: relative;
+}
+
+.our-skills .progress .progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--main-color);
+}
+
+/* End Our Skills */
+
 /* Start Animations */
 
 @keyframes background-fill-left {
