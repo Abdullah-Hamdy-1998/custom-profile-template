@@ -1112,6 +1112,18 @@ ul {
   flex: 1;
 }
 
+.events .info .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.events .container .subscribe {
+  width: 100%;
+}
+
 /* End Events */
 
 /* Start Animations */
