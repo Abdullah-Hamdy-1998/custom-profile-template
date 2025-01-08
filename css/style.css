@@ -1120,11 +1120,27 @@ ul {
   margin: 20px auto;
 }
 
-.events .info .time .unit{
+.events .info .time .unit {
   border: 1px solid #D4D4D4;
   border-radius: 5px;
-  padding: 20px 10px;
   text-align: center;
+}
+
+.events .info .time .unit span {
+  display: block;
+}
+
+.events .info .time .unit span:first-child {
+  color: var(--main-color);
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.events .info .time .unit span:last-child {
+  padding: 8px 10px;
+    font-size: 12px;
+    border-top: 1px solid #d4d4d4;
 }
 
 .events .container .subscribe {
