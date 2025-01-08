@@ -1128,7 +1128,11 @@ ul {
   transition: 0.3s;
 }
 
-.events .info .time .unit:hover{
+.events .info .time .unit:hover {
+  border-color: var(--main-color);
+}
+
+.events .info .time .unit:hover span:last-child {
   border-color: var(--main-color);
 }
 
@@ -1145,8 +1149,9 @@ ul {
 
 .events .info .time .unit span:last-child {
   padding: 8px 10px;
-    font-size: 12px;
-    border-top: 1px solid #d4d4d4;
+  font-size: 12px;
+  border-top: 1px solid #d4d4d4;
+  transition: 0.3s;
 }
 
 .events .container .subscribe {
