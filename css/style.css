@@ -1124,6 +1124,7 @@ ul {
   border: 1px solid #D4D4D4;
   border-radius: 5px;
   text-align: center;
+  width: 75px;
 }
 
 .events .info .time .unit span {
