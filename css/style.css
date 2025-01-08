@@ -1155,6 +1155,20 @@ ul {
   transition: var(--transition-duration);
 }
 
+.events .info .title {
+  font-size: 1.6rem;
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+.events .info .description {
+  font-size: 1.1rem;
+  color: #777;
+  line-height: 1.7;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
 .events .container .subscribe {
   width: 100%;
 }
