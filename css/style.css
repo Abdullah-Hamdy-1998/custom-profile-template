@@ -14,6 +14,7 @@
   --main-color-alt: #1787e0;
   --main-padding: 100px;
   --section-background: #ececec;
+  --transition-duration: 0.3s;
 }
 
 html {
