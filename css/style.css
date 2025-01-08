@@ -1092,6 +1092,11 @@ ul {
   padding: var(--main-padding) 0;
 }
 
+.events .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .events .container img {
   max-width: 450px;
@@ -1103,7 +1108,9 @@ ul {
   }
 }
 
-
+.events .container .info {
+  flex: 1;
+}
 
 /* End Events */
 
