@@ -1159,6 +1159,14 @@ ul {
   width: 100%;
 }
 
+.events .subscribe form {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  background-color: #f6f5f5;
+  border-radius: 50px;
+}
+
 /* End Events */
 
 /* Start Animations */
