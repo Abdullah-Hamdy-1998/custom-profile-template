@@ -1125,7 +1125,6 @@ ul {
   border: 1px solid #D4D4D4;
   border-radius: 5px;
   text-align: center;
-  width: 75px;
   transition: var(--transition-duration);
 }
 
@@ -1148,6 +1147,12 @@ ul {
   padding: 15px;
 }
 
+@media (max-width: 767px) {
+  .events .info .time .unit span:first-child {
+    font-size: 24px;
+  }
+}
+
 .events .info .time .unit span:last-child {
   padding: 8px 10px;
   font-size: 12px;
@@ -1161,12 +1166,24 @@ ul {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  .events .info .title {
+    font-size: 1.4rem;
+  }
+}
+
 .events .info .description {
   font-size: 1.1rem;
   color: #777;
   line-height: 1.7;
   text-align: center;
   margin: 20px 0 0;
+}
+
+@media (max-width: 767px) {
+  .events .info .description {
+    font-size: 1rem;
+  }
 }
 
 .events .container .subscribe {
@@ -1182,12 +1199,27 @@ ul {
   border-radius: 40px;
 }
 
+@media (max-width: 767px) {
+  .events .subscribe form {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
 .events .subscribe form input[type="email"] {
   flex: 1;
   padding: 20px;
   border: none;
   border-radius: 50px;
   margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .events .subscribe form input[type="email"] {
+    border-radius: 5px;
+    margin: 0 0 10px;
+  }
 }
 
 .events .subscribe form input[type="email"]:focus {
@@ -1210,6 +1242,13 @@ ul {
   border-radius: 50px;
   cursor: pointer;
   font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .events .subscribe form input[type="submit"] {
+    border-radius: 5px;
+    padding: 10px 0;
+  }
 }
 
 .events .subscribe form input[type="submit"]:hover {
