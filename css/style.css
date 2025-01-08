@@ -1127,6 +1127,10 @@ ul {
   width: 75px;
 }
 
+.events .info .time .unit:hover{
+  border-color: var(--main-color);
+}
+
 .events .info .time .unit span {
   display: block;
 }
