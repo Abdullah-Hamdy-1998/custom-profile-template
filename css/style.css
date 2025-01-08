@@ -1120,6 +1120,13 @@ ul {
   margin: 20px auto;
 }
 
+.events .info .time .unit{
+  border: 1px solid #D4D4D4;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
 .events .container .subscribe {
   width: 100%;
 }
