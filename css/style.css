@@ -1160,11 +1160,20 @@ ul {
 }
 
 .events .subscribe form {
+  display: flex;
   width: 600px;
   margin: 20px auto;
   padding: 20px 30px;
   background-color: #f6f5f5;
+  border-radius: 40px;
+}
+
+.events .subscribe form input[type="email"] {
+  flex: 1;
+  padding: 20px;
+  border: none;
   border-radius: 50px;
+  margin-right: 10px;
 }
 
 /* End Events */
