@@ -1186,6 +1186,10 @@ ul {
   font-weight: bold;
 }
 
+.events .subscribe form input[type="submit"]:hover {
+  background-color: var(--main-color-alt);
+}
+
 /* End Events */
 
 /* Start Animations */
