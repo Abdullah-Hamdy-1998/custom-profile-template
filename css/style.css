@@ -1092,6 +1092,19 @@ ul {
   padding: var(--main-padding) 0;
 }
 
+
+.events .container img {
+  max-width: 450px;
+}
+
+@media (max-width: 991px) {
+  .events .container img {
+    display: none;
+  }
+}
+
+
+
 /* End Events */
 
 /* Start Animations */
