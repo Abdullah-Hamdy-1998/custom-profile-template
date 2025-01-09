@@ -1242,6 +1242,7 @@ ul {
   border-radius: 50px;
   cursor: pointer;
   font-weight: bold;
+  transition: var(--transition-duration);
 }
 
 @media (max-width: 767px) {
@@ -1302,8 +1303,10 @@ ul {
   width: 100%;
 }
 
-.pricing .box.popular {
-  transform: translateY(-20px);
+@media (min-width: 1200px) {
+  .pricing .box.popular {
+    transform: translateY(-20px);
+  }
 }
 
 .pricing .box .title {
