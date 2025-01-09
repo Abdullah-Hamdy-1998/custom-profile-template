@@ -1271,8 +1271,7 @@ ul {
 
 .pricing .box {
   background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
   overflow: hidden;
   position: relative;
 }
@@ -1345,13 +1344,14 @@ ul {
 .pricing .box ul li {
   padding: 20px;
   border-top: 1px solid #eee;
+  color: #333;
 }
 
 .pricing .box a {
   display: block;
   width: fit-content;
   padding: 15px 20px;
-  margin: 30px auto;
+  margin: 30px auto 50px;
   font-size: 1rem;
   font-weight: bold;
   color: var(--main-color);
