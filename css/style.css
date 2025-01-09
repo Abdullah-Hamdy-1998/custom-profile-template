@@ -1257,6 +1257,65 @@ ul {
 
 /* End Events */
 
+/* Start Pricing */
+.pricing {
+  padding: var(--main-padding) 0;
+  background-color: var(--section-background);
+}
+
+.pricing .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.pricing .box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.pricing .box .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 20px;
+}
+
+.pricing .box img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.pricing .box .label {
+  position: absolute;
+  writing-mode: vertical-rl;
+  top: 0;
+  right: 20px;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 8px 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pricing .box .label::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-color: transparent transparent white transparent;
+  border-width: 20px;
+  border-style: solid;
+}
+
+
 /* Start Animations */
 
 @keyframes background-fill-left {
