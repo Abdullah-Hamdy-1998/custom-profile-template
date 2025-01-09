@@ -1274,6 +1274,32 @@ ul {
   box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
   overflow: hidden;
   position: relative;
+  z-index: 1;
+
+}
+
+.pricing .box::before, .pricing .box::after {
+  content: "";
+  width: 0;
+  height: 50%;
+  background-color: #f6f6f6;
+  position: absolute;
+  z-index: -1;
+  transition: var(--transition-duration);
+}
+
+.pricing .box::before {
+  top: 0;
+  left: 0;
+}
+
+.pricing .box::after {
+  bottom: 0;
+  right: 0;
+}
+
+.pricing .box:hover::before, .pricing .box:hover::after {
+  width: 100%;
 }
 
 .pricing .box.popular {
@@ -1316,6 +1342,10 @@ ul {
   border-color: transparent transparent white transparent;
   border-width: 20px;
   border-style: solid;
+}
+
+.pricing .box:hover .label::after {
+  border-color: transparent transparent #f6f6f6 transparent;
 }
 
 .pricing .box .price {
@@ -1365,6 +1395,8 @@ ul {
   background-color: var(--main-color);
   color: #fff;
 }
+
+/* End Pricing */
 
 
 
