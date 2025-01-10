@@ -1331,20 +1331,11 @@ ul {
   top: 0;
   right: 20px;
   background-color: var(--main-color);
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 50% 86%, 0 100%, 0% 35%, 0 0);
   color: #fff;
   padding: 10px 8px 30px;
   font-weight: bold;
   font-size: 1.2rem;
-}
-
-.pricing .box .label::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-color: transparent transparent white transparent;
-  border-width: 20px;
-  border-style: solid;
 }
 
 .pricing .box:hover .label::after {
