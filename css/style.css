@@ -1409,6 +1409,12 @@ ul {
 
 /* End Pricing */
 
+/* Start Video */
+.video {
+  padding: var(--main-padding) 0;
+}
+/* End Video */
+
 /* Start Animations */
 
 @keyframes background-fill-left {
