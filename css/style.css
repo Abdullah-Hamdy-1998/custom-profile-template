@@ -1331,7 +1331,7 @@ ul {
   top: 0;
   right: 20px;
   background-color: var(--main-color);
-  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 50% 86%, 0 100%, 0% 35%, 0 0);
+  clip-path: polygon(100% 0, 100% 100%, 50% 86%, 0 100%, 0 0);
   color: #fff;
   padding: 10px 8px 30px;
   font-weight: bold;
