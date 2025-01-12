@@ -1558,6 +1558,14 @@ ul {
   font-weight: bold;
 }
 
+.stats .box p {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--main-color);
+  margin: 0;
+}
+
 /* End Stats */
 
 /* Start Animations */
