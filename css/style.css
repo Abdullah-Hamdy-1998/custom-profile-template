@@ -1551,6 +1551,13 @@ ul {
   color: #333;
 }
 
+.stats .box h3 {
+  font-size: 2.8rem;
+  color: #333;
+  margin: 18px 0;
+  font-weight: bold;
+}
+
 /* End Stats */
 
 /* Start Animations */
