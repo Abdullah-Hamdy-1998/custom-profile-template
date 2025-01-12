@@ -1400,11 +1400,20 @@ ul {
 
 /* End Pricing */
 
-/* Start Video */
-.video {
+/* Start Videos */
+
+.videos {
   padding: var(--main-padding) 0;
 }
-/* End Video */
+
+.videos .holder {
+  display: flex;
+  background-color: var(--section-background);
+  border: 1px solid #ddd;
+}
+
+
+/* End Videos */
 
 /* Start Animations */
 
