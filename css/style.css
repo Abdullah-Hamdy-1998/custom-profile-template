@@ -1412,6 +1412,11 @@ ul {
   border: 1px solid #ddd;
 }
 
+@media (max-width: 991px) {
+  .videos .holder {
+    flex-direction: column;
+  }
+}
 
 /* End Videos */
 
