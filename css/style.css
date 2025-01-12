@@ -1492,6 +1492,15 @@ ul {
   opacity: 0.95;
 }
 
+.stats h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 0 0 40px;
+  position: relative;
+}
+
 
 
 /* End Stats */
