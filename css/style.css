@@ -1449,6 +1449,27 @@ ul {
   color: #777;
 }
 
+.videos .video-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.videos .video-player img {
+  max-width: 100%;
+}
+
+.videos .video-player .info {
+  padding: 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.videos .video-player .info h3 {
+  margin: 0;
+}
+
 /* End Videos */
 
 /* Start Animations */
