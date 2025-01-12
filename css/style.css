@@ -1547,6 +1547,10 @@ ul {
   height: 100%;
 }
 
+.stats .box .icon {
+  color: #333;
+}
+
 /* End Stats */
 
 /* Start Animations */
