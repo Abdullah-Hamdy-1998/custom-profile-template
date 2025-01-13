@@ -1592,6 +1592,12 @@ ul {
   z-index: 1;
 }
 
+@media (max-width: 991px) {
+  .discount .image {
+    flex-basis: 100%;
+  }
+}
+
 .discount .image img {
   max-width: 75%;
 }
@@ -1629,6 +1635,12 @@ ul {
   justify-content: center;
   flex-basis: 50%;
   padding-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  .discount .form {
+    flex-basis: 100%;
+  }
 }
 
 .discount .form h2 {
