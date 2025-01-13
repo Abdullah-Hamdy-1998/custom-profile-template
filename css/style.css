@@ -1568,6 +1568,22 @@ ul {
 
 /* End Stats */
 
+/* Start Discount */
+.discount {
+  display: flex;
+  padding: var(--main-padding) 0;
+}
+
+.discount .image {
+  flex-basis: 50%;
+}
+
+.discount .image img {
+  max-width: 100%;
+}
+
+/* End Discount */
+
 /* Start Animations */
 
 @keyframes background-fill-left {
