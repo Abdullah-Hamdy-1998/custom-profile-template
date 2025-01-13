@@ -1592,6 +1592,10 @@ ul {
   z-index: 1;
 }
 
+.discount .image img {
+  max-width: 75%;
+}
+
 .discount .image::before {
   content: '';
   position: absolute;
@@ -1607,20 +1611,16 @@ ul {
   font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   letter-spacing: -2px;
 }
 
 .discount .image .content p {
   font-size: 1.1rem;
   color: #fff;
-  margin: 0;
+  margin: 0 auto 30px;
   max-width: 500px;
   line-height: 1.7;
-}
-
-.discount .image img {
-  max-width: 500px;
 }
 
 .discount .form {
