@@ -1571,14 +1571,7 @@ ul {
 /* Start Discount */
 .discount {
   display: flex;
-  padding: var(--main-padding) 0;
-}
-
-.discount .image {
-  background-image: url(../images/discount-bg1.jpg);
-  background-size: cover;
-  background-position: center;
-  flex-basis: 50%;
+  align-items: center;
 }
 
 .discount .content {
@@ -1586,8 +1579,36 @@ ul {
   padding: 0 20px;
 }
 
+.discount .image {
+  background-image: url(../images/discount-bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-basis: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.discount .image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2195f3f1;
+  z-index: -1;
+}
+
 .discount .image img {
-  max-width: 100%;
+  max-width: 500px;
+}
+
+.discount .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+  padding-bottom: 50px;
 }
 
 /* End Discount */
