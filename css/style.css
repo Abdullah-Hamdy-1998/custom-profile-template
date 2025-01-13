@@ -1571,7 +1571,8 @@ ul {
 /* Start Discount */
 .discount {
   display: flex;
-  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
 }
 
 .discount .content {
