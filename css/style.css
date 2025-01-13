@@ -1666,6 +1666,10 @@ ul {
   caret-color: var(--main-color);
 }
 
+.discount .form .input{
+  outline: none;
+}
+
 .discount .form textarea.input {
   resize: none;
   flex-basis: 200px;
@@ -1684,6 +1688,7 @@ ul {
 .discount .form input[type="submit"]:hover {
   background-color: var(--main-color-alt);
 }
+
 
 /* End Discount */
 
