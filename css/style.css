@@ -1591,6 +1591,7 @@ ul {
   flex-basis: 50%;
   position: relative;
   z-index: 1;
+  animation: change-background 10s infinite;
 }
 
 @media (max-width: 991px) {
@@ -1600,7 +1601,8 @@ ul {
 }
 
 .discount .image img {
-  max-width: 75%;
+  width: 400px;
+  max-width: 100%;
 }
 
 .discount .image::before {
@@ -1625,7 +1627,7 @@ ul {
 .discount .image .content p {
   font-size: 1.1rem;
   color: #fff;
-  margin: 0 auto 30px;
+  margin: 0 0 30px;
   max-width: 500px;
   line-height: 1.7;
 }
@@ -1658,7 +1660,7 @@ ul {
 }
 
 .discount .form .input {
-  flex:1;
+  flex: 1;
   padding: 15px;
   border: none;
   border-bottom: 1px solid #ccc;
@@ -1666,7 +1668,7 @@ ul {
   caret-color: var(--main-color);
 }
 
-.discount .form .input{
+.discount .form .input {
   outline: none;
 }
 
@@ -1776,6 +1778,17 @@ ul {
     width: 200%;
     height: 200%;
   }
+}
+
+@keyframes change-background {
+  0%, 100% {
+    background-image: url(../images/discount-bg1.jpg);
+  }
+
+  50% {
+    background-image: url(../images/discount-bg2.jpg);
+  }
+
 }
 
 /* End Animations */
