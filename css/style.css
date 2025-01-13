@@ -1581,6 +1581,9 @@ ul {
 }
 
 .discount .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url(../images/discount-bg1.jpg);
   background-size: cover;
   background-position: center;
@@ -1596,8 +1599,24 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #2195f3f1;
+  background-color: #2195f3f5;
   z-index: -1;
+}
+
+.discount .image .content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 0 20px;
+  letter-spacing: -2px;
+}
+
+.discount .image .content p {
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 0;
+  max-width: 500px;
+  line-height: 1.7;
 }
 
 .discount .image img {
