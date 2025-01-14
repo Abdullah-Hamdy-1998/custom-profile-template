@@ -1696,7 +1696,7 @@ ul {
 
 /* Start Footer */
 .footer {
-  padding: var(--main-padding) 0 0;
+  padding: 60px 0 0;
   background-color: #333;
   color: #fff;
 }
