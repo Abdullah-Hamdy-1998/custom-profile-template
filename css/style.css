@@ -1696,7 +1696,7 @@ ul {
 
 /* Start Footer */
 .footer {
-  padding: var(--main-padding) 0;
+  padding: var(--main-padding) 0 0;
   background-color: #333;
   color: #fff;
 }
@@ -1801,6 +1801,19 @@ ul {
 }
 
 /* End Footer */
+
+/* Start Copyright */
+
+.copyright {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-top: 1px solid #555;
+}
+
+/* End Copyright */
 
 /* Start Animations */
 
