@@ -1743,6 +1743,38 @@ ul {
   color: #ccc;
 }
 
+.footer .box:nth-child(2) ul li {
+  padding: 10px 0;
+}
+
+.footer .box:nth-child(2) ul li:not(:last-child) {
+  border-bottom: 1px solid #555;
+}
+
+.footer .box:nth-child(2) ul li a {
+  color: #ccc;
+  display: block;
+  transition: var(--transition-duration);
+}
+
+.footer .box:nth-child(2) ul li:hover a {
+  color: #fff;
+  transform: translateX(10px);
+}
+
+.footer .box:nth-child(2) ul li a::before {
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  margin-right: 10px;
+  font-weight: 900;
+  color: #ccc;
+  transition: var(--transition-duration);
+}
+
+.footer .box:nth-child(2) ul li:hover a::before {
+  color: var(--main-color);
+}
+
 /* End Footer */
 
 /* Start Animations */
