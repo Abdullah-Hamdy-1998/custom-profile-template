@@ -1717,6 +1717,27 @@ ul {
   margin: 0 0 20px;
 }
 
+.footer .box .social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .box .social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  min-width: 40px;
+  transition: var(--transition-duration);
+}
+
+.footer .box .social a:hover {
+  background-color: var(--main-color);
+}
+
 /* End Footer */
 
 /* Start Animations */
