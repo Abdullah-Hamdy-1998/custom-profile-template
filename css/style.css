@@ -1793,6 +1793,13 @@ ul {
 .footer .box:nth-child(3) ul li a:hover {
   color: #fff;
 }
+
+.footer .box:nth-child(4) .footer-gallery img {
+  max-width: 75px;
+  padding: 3px;
+  background-color: #fff;
+}
+
 /* End Footer */
 
 /* Start Animations */
