@@ -1738,6 +1738,11 @@ ul {
   background-color: var(--main-color);
 }
 
+.footer .box p {
+  line-height: 1.7;
+  color: #ccc;
+}
+
 /* End Footer */
 
 /* Start Animations */
