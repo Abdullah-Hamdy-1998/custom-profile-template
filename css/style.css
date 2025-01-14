@@ -1775,6 +1775,24 @@ ul {
   color: var(--main-color);
 }
 
+.footer .box:nth-child(3) ul li {
+  padding: 10px 0;
+  color: #ccc;
+}
+
+.footer .box:nth-child(3) ul li i {
+  margin-right: 10px;
+  color: var(--main-color);
+}
+
+.footer .box:nth-child(3) ul li a {
+  color: #ccc;
+  transition: var(--transition-duration);
+}
+
+.footer .box:nth-child(3) ul li a:hover {
+  color: #fff;
+}
 /* End Footer */
 
 /* Start Animations */
